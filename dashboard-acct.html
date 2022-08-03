@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard-acct.css">
+    <script src="https://kit.fontawesome.com/c491194143.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <aside>
+                <div class="top">
+                    <div class="logo"><img src="img/TERMS77-LOGO 3.png" alt=""></div>
+                    <div class="close"><i class="fa-solid fa-xmark"></i></div> 
+                </div>
+                <div class="sidebar">
+                    <ul>
+                        <li class="temp"><h4><a href="#">Templates</a></h4></li>
+                        <li class="set"><h4><a href="#">Settings</a></h4></li>
+                        <li class="logout"><h4><a href="#">Logout</a></h4></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="main">
+                <div class="profile">
+                    <div class="bars"><i class="fa-solid fa-bars"></i></div>
+                    <div class="user">
+                        <div><i class="fa-regular fa-circle-user"></i></div>
+                        <div><span>thebest</span></div>  
+                    </div>
+                </div>
+                <div class="account">
+                    <!-- <a href="#"><img class="prof" src="profile.svg" alt=""></a> -->
+                    <img class="add" src="img/add terms & conditions (1).png" alt="">
+                    <div class="text">Terms and conditions protect your company by disallowing unbecoming<br>user behaviour and reducing your legal liability</div>
+                    <a class="terms" onclick="openPopup()" href="#">NEW TERMS AND CONDITION</a>
+                    <div>
+              
+                      <div class="wrapper2" id="wrapper2">
+                        <div class="sidebar2">
+                          <ul>
+                            <li><a class="at2" href="#">Step 1</a></li>
+                            <li><a class="as2" href="#">Step 2</a></li>
+                            <li><a class="an2" href="#">Step 3</a></li>
+                            <li><a class="ad2" href="#">Step 4</a></li>
+                          </ul>
+                        </div>
+                        <!-- <div class="main-content2">
+                          <div class="header2">Terms and conditions</div>
+                        </div> -->
+                      </div>
+              
+                    </div>
+                  </div>
+                </div>
+                </div>
+                </div>
+                <script>
+                  let popup = document.getElementById("wrapper2");
+              
+                  function openPopup() {
+                    popup.classList.add("open-popup");
+                  }
+                </script>
+                <footer>
+                    <div class="footer">
+                        <div><a href="#">Privacy Policy</a></div>
+                        <div><a href="#">Terms of Use</a></div>
+                        <div><a href="#">Disclaimer</a></div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
